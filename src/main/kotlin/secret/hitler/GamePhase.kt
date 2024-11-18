@@ -1,0 +1,13 @@
+package game.bot.secret.hitler
+
+enum class GamePhase {
+    WAITING_FOR_PLAYERS,
+    CHOOSING_CHANCELLOR,
+    CHOOSING_POLICY_DISCARD,
+    CHOOSING_POLICY,
+    CHOOSING_INSPECT,
+    CHOOSING_PRESIDENT,
+    CHOOSING_KILL,
+    VOTING,
+    VETO,
+}
